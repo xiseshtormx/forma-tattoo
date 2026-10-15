@@ -1,0 +1,10 @@
+{
+  "name": "forma-tattoo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node server.mjs",
+    "check": "node --check contact.js && node --check art.js && node --check data.js"
+  }
+}
